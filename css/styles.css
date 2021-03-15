@@ -1,0 +1,110 @@
+body {
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15% 4%;
+}
+
+/* Nav Bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+li{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+
+/* Images */
+
+img {
+    width: 176px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Information */
+
+.info {
+    max-width: 200px;
+    display: inline-block;
+    line-height: 1.5;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Form */
+
+.form-section {
+    background-color: #ef8172;
+    padding: 20px;
+}
+
+/* Button */
+
+.btn {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Terms and Privacy Policy */
+
+.terms {
+    text-decoration: none;
+    color: #FFdead;
+}
+
+.terms:hover {
+    color: blue;
+}
+
+
+/* Footer */
+
+.white-section {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.footer-link {
+    color: #000;
+    padding: 30px;
+}
+
+
+
+@media (max-width:720px) {
+    .info {
+        display: none;
+    }
+
+    .form-section {
+        margin-top: 50px;
+    }
+
+    img {
+        clear: both;
+        text-align: center;
+        margin-left: 70px;
+    }
+}
